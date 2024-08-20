@@ -107,10 +107,14 @@ class Biblioteca:
 
     def menu():
         print("\n -------- Menu --------")
+        resposta = input(int("\n Digite que opção você deseja: "))
         print("1. Adicionar livros")
         print("2. Buscar Livros")
         print("3. Emprestar livros")
         print("4. Devolver Livros")
+
+        if resposta = 1:
+            livr
 
 
 if __name__ == "__main__":
