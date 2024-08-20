@@ -105,6 +105,14 @@ class Biblioteca:
                 resultado.append(livro)
         return resultado
 
+    def menu():
+        print("\n -------- Menu --------")
+        print("1. Adicionar livros")
+        print("2. Buscar Livros")
+        print("3. Emprestar livros")
+        print("4. Devolver Livros")
+
+
 if __name__ == "__main__":
     autor1 = Autor("George Orwell", "Inglaterra")
     livro1 = Livro("1984", autor1, "123456789")
